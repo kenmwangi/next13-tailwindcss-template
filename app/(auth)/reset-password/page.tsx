@@ -34,7 +34,7 @@ export default function ResetPassword() {
                   <input
                     id="email"
                     type="email"
-                    className="form-input w-full text-gray-800"
+                    className="form-input outline-none w-full text-gray-800"
                     placeholder="Enter your email address"
                     required
                   />
