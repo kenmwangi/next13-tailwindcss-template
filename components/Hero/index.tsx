@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "../Container";
+import ModalVideo from "../ModalVideo";
+import VideoThumb from "@/public/images/hero-image.png";
 
 export default function Hero() {
   return (
@@ -84,14 +86,15 @@ export default function Hero() {
           </div>
 
           {/* Hero image */}
-          {/* <ModalVideo
+          <ModalVideo
             thumb={VideoThumb}
             thumbWidth={768}
             thumbHeight={432}
             thumbAlt="Modal video thumbnail"
             video="/videos/video.mp4"
             videoWidth={1920}
-            videoHeight={1080} /> */}
+            videoHeight={1080}
+          />
         </div>
       </Container>
     </section>
