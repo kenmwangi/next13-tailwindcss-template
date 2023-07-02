@@ -1,6 +1,7 @@
 import Header from "@/components/UI/Header";
 import "./css/globals.css";
 import { Inter } from "next/font/google";
+import Banner from "@/components/Banner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
           {children}
+          <Banner />
         </div>
       </body>
     </html>
